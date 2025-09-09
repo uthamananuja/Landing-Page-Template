@@ -1,0 +1,145 @@
+body
+{
+
+font-family: 'Open Sans', sans-serif;
+font-size: 100%;
+}
+h1, h2, h3, h4, h5 
+{
+  font-family: 'Vidaloka', serif;
+  font-size: 3em;
+
+}
+p{ font-size: 15px;  }
+
+
+
+
+
+.h-info p
+{
+  box-sizing: border-box;
+  padding: 0px 50px 0px 50px;
+}
+
+section
+{
+  padding-top: 50px;
+  padding-bottom: 50px;
+}
+.no-gutter
+{
+  padding-left: 0px;
+  padding-right: 0px;
+}
+.section-title 
+{
+    font-size: 50px;
+        font-size: 50px;
+    text-transform: capitalize;
+    margin-bottom: 20px;
+}
+
+/* service section */
+
+.service_container {
+  position: relative;
+  width: 100%;
+}
+
+.image {
+  display: block;
+  width: 100%;
+  height: auto;
+}
+
+.overlay {
+  position: absolute;
+  bottom: 0;
+  left: 0;
+  right: 0;
+  background-color: #000;
+  overflow: hidden;
+  width: 100%;
+  height: 0;
+  transition: .5s ease;
+  opacity:0.5;
+  -webkit-transition: all 0.8s ease;
+}
+
+.service_container:hover .overlay {
+  height: 60%;
+}
+.service_container:hover .text 
+{
+position:absolute;
+z-index:999;
+top: 50%;
+
+}
+
+.text
+
+ {
+  white-space: nowrap; 
+  color: white;
+  font-size: 20px;
+  position: absolute;
+  overflow: hidden;
+  top: 70%;
+  left: 50%;
+  transform: translate(-50%, -50%);
+  -ms-transform: translate(-50%, -50%);
+  -webkit-transition: all 0.8s ease;
+}
+
+.overlay hr
+{
+  position: absolute;
+    left: 0;
+    right: 0;
+    width: 50%;
+    z-index: 999;
+    height: 2px;
+    top: 19%;
+    animation: double 0.5s .5s ease-out infinite;
+    -webkit-animation: double 0.5s .5s ease-out infinite;
+    background-color: #fff;
+  
+}
+.service1
+{
+  position: absolute;
+  color: #fff;
+  position: absolute;
+    color: #fff;
+    top: 26%;
+    z-index: 999;
+    text-align: center;
+    padding: 20px;
+    bottom: 0;
+}
+
+
+/*  end  */
+.h-titmings .sub-title { 
+
+    text-align: left;
+    text-transform: capitalize;
+    font-size: 20px;
+ }
+ .h-titmings p { padding: 0px; text-align: left;}
+  .h-titmings
+ {
+     box-sizing: border-box;
+    padding: 88px;
+ }
+ .pg-pricing-btn
+ {
+      color: #000;
+    background: #ccbfa6;
+    transition: all 0.3s ease-in-out;
+    text-decoration: none;
+    text-transform: uppercase;
+    border-radius: 0px;
+ }
